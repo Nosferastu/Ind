@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'enchanted';
-    src: url('../fonts/Enchanted Land.otf') format('opentype');
+    src: url('fonts/Enchanted Land.otf') format('opentype');
     font-weight: normal;
     font-weight: normal;
 }
@@ -407,7 +407,7 @@ img{
 }
 .img-header{
     border-radius: 0px 0px 7px 7px;
-    background-image: url(../images/header-image.png);
+    background-image: url(images/header-image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
