@@ -1,12 +1,22 @@
 @font-face {
     font-family: 'enchanted';
-    src: url('fonts/Enchanted Land.otf') format('opentype');
+    src: url('../fonts/Enchanted Land.otf') format('opentype');
     font-weight: normal;
     font-weight: normal;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+
+:root{
+
+        --cor0: #c5ebd6;
+        --cor1: #83e1ad;
+        --cor2: #3ddc84;
+        --cor3: #2fa866;
+        --cor4: #1a5c37;
+        --cor5: #063d1e;
+}
 
 body{
     margin: 0px;
@@ -397,7 +407,7 @@ img{
 }
 .img-header{
     border-radius: 0px 0px 7px 7px;
-    background-image: url(images/header-image.png);
+    background-image: url(../images/header-image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
