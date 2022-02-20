@@ -10,12 +10,12 @@
 
 :root{
 
-        --cor0: #c5ebd6;
-        --cor1: #83e1ad;
-        --cor2: #3ddc84;
-        --cor3: #2fa866;
-        --cor4: #1a5c37;
-        --cor5: #063d1e;
+        --yellow: #f6921d;
+        --black: #130912;
+        --lightpurple: #602749;
+        --gray: #606060;
+        --orange: #b14623;
+        --darkpurple: #3e1c33;
 }
 
 body{
@@ -54,7 +54,7 @@ nav{
 }
 nav > a {
     text-decoration: none;
-    color: rgb(207, 190, 33);
+    color: var(--yellow);
     font-weight: bold;
     margin-top: 0px;
     padding-top: 0px;
@@ -72,7 +72,7 @@ h1#titulo{
 }
 
 section{
-    background: #240e38;
+    background: var(--darkpurple);
     border-radius: 10px;
     padding: 6px;
     margin-top: 200px;
@@ -118,7 +118,7 @@ img#img-audio{
     height: 25px;
 }
 .shadowyellow{
-    box-shadow: 1px 1px 20px rgb(207, 190, 33);
+    box-shadow: 1px 1px 20px #f6921d;
     margin-top: 25px;
     margin-bottom: 25px;
     margin: 20px;
@@ -128,13 +128,13 @@ div{
     padding: 10px;
 }
 .headerback{
-    background: black;    
+    background: var(--black);    
     padding-left: 0%;
     padding-top: 0%;
     padding-right: 0%;
 }
 .intro{
-    background: black;    
+    background: var(--black);    
     padding-left: 100px;
     padding-right: 100px;
     
@@ -151,7 +151,7 @@ div{
     margin-right: auto;
     height: auto; 
     max-width: 870px;
-    box-shadow: 1px 1px 20px rgb(207, 190, 33);
+    box-shadow: 1px 1px 20px #f6921d;
 }
 p#textintro{
     display: inline-block;
@@ -208,7 +208,8 @@ section#gameplay{
     display: inline-block;
 }
 .roadmap{
-    background: black; 
+    background: var(--black); 
+    padding-bottom: 20px;
     margin-bottom: 30px;
 }
 .roadmaplist{
@@ -226,7 +227,7 @@ section#gameplay{
 .liconfig{
     text-decoration: underline;
     text-decoration-skip: initial;
-    text-decoration-color: black;
+    text-decoration-color: var(--black);
     
     font-size: 25px;
     padding-bottom: 7px;
@@ -234,7 +235,7 @@ section#gameplay{
 .lidist{
     text-decoration: underline;
     text-decoration-skip: initial;
-    text-decoration-color: black;
+    text-decoration-color: var(--black);
     
     font-size: 25px;
     padding-left: 27px;
@@ -258,7 +259,7 @@ h1#road{
     display: inline;
     padding-right: 150px;
     font-size: 2.2em;
-    color: rgb(207, 190, 33);
+    color: #f6921d(207, 190, 33);
 }
 
 .h1gameroad{
@@ -282,7 +283,7 @@ h1#road{
 }
 .gameplay{
     
-    background: black; 
+    background: var(--black); 
 }
 
 div#text-gameplay{
@@ -375,16 +376,16 @@ h1{
     padding: auto;
     text-align: left;
     font-size: 3em;
-    color: rgb(207, 190, 33);
+    color: var(--yellow);
 }
 h2{
     margin: auto;
     padding: auto;
     font-size: 1.7em;
-    color: black;
+    color: var(--yellow);
 }
 h2#contract{
-    color: rgb(207, 190, 33);
+    color: #f6921d(207, 190, 33);
     font-family: 'Fredoka One';
     font-size: 2em;
     padding-top: 20px;
@@ -415,6 +416,6 @@ img{
     margin-right: 0px;
     margin-left: 0px;
     width: auto;
-    height: 300px;
+    height: 400px;
     position: flex;
 }
