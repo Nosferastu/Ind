@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Souls</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+            <h1 id="titulo">Halloween Souls</h1>
+            <nav>
+                <a href="#" id="ham">HOME</a>
+                <a href="#" id="ham">GAMEPLAY</a>
+                <a href="#" id="ham">CONTRACT</a>
+                <a href="#" id="ham">ROADMAP</a>
+                <a href="https://halloweensouls.gitbook.io/halloween-souls/" target="_blank" id="ham">WHITEPAPER</a> 
+            </nav>
+            <audio src="music-theme/theme.mp3" id="background_audio" autoplay loop></audio>
+            <a href="#" class="mute-button" onclick="mute();return false"><img src="/images/unmute.png" alt="" id="img-audio"></a>
+    </header>
+
+    <div class="headerback">
+        <div class="img-header"></div>
+    </div>
+
+    <div class="intro">
+
+        <section class="secintro">
+            <h1 class="tintro">Magic Land</h1>
+            <img src="images/test-02.png" alt="img-intro" class="img-intro" id="imgintro"> 
+            <p class="tintro" id="textintro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, dolores eaque numquam saepe veniam corrupti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsa modi illum vel reprehenderit
+            <br><br><br><br>
+            </p>
+              
+        </section> 
+
+    </div >
+
+    <div class="contract">
+
+        <section id="contract">
+
+            <h1 id="contract">Token Contract</h1>
+            
+            <section id="secontract">
+                <p id="contract"><strong>0xCf1B9A7cceaD435E90eBb7a905b3332e32A5507d</strong></p>
+            </section>
+
+            <h2 id="contract">Buy ↴</h2>
+
+                <a href="#"><img src="images/poocoin.png" alt="poocoin"></a>
+                <a href="#"><img src="images/pancake.png" alt="pancake"></a>
+
+        </section>
+    </div>
+
+    <div class="gameplay" >
+        <section class="shadowyellow" id="gameplay">
+            
+
+            <div id="text-gameplay">
+                <h1 class="h1game" id="gameplaytitle">Gameplay</h1>
+                <p class="p1game" id="textgameplay">Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity?</p>
+                <br>
+            </div>
+            
+            <div id="img-gameplay"> 
+                <img src="images/test-02.png" alt="teste">
+            </div>
+            
+            <div class="divcontrolul">
+                <ul class="ulcontrol2">
+                    <li id="lileft" onclick="clickleft()"><img src="images/left-arrow.png" class="arrow" alt=""></li>
+                </ul>
+                <ul class="ulcontrol" id="ulprimeiro">
+                    <li class="licontrol" id="li1" onclick="click1()" style="color: white;"></li>
+                </ul>
+                <ul class="ulcontrol">
+                    <li class="licontrol" id="li2" onclick="click2()"></li>
+                </ul>
+                <ul class="ulcontrol">
+                    <li class="licontrol" id="li3" onclick="click3()"></li>
+                </ul>
+                <ul class="ulcontrol2">
+                    <li id="liright" onclick="clickright()"><img src="images/right-arrow.png" class="arrow" alt=""></li>
+                </ul>
+            </div>
+        </section> 
+    </div>   
+    
+    <div class="roadmap">
+        <section class="shadowyellow" id="road">
+
+            <h1 class="h1gameroad" id="road">ROADMAP</h1>
+                
+            
+                <ul class="roadmaplist">
+                    <h1 class="h1road" id="first">Q1 - 2022</h1>
+                    <li class="liconfig"><img src="images/check-icon.png" alt="check-icon" class="check-icon">TWITTER Community</li>
+                    <li class="liconfig"><img src="images/check-icon.png" alt="check-icon" class="check-icon">DISCORD Community</li>
+                    <li class="liconfig"><img src="images/check-icon.png" alt="check-icon" class="check-icon"> TELEGRAM Community</li>
+                    <li class="liconfig"><img src="images/check-icon.png" alt="check-icon" class="check-icon"> WEBSITE</li>
+                    <li class="liconfig"><img src="images/check-icon.png" alt="check-icon" class="check-icon"> Whitepaper (ENG, PT, ESP, RUS)</li>
+                    <li class="lidist">Marketing and partnerships with <strong>Content Creators</strong></li>
+                    <li class="lidist">PROFIT CALCULATOR</li>
+                    <li class="lidist">PRIVATE-SALE</li>
+                    
+                </ul>
+            
+                <ul class="roadmaplist">
+                    <h1 class="h1road">Q2 - 2022</h1>
+                    <li class="liconfig">PRE-SALE of exclusive Souls</li>
+                    <li class="liconfig">PUBLIC-SALE <h1 class="h1set">↴</h1><br>PANCAKESWAP - POOCOIN</li>
+                    <li class="liconfig">Certik authentication</li>
+                    <li class="liconfig">PVP & PVM</li>
+                    <li class="liconfig">More partnerships with <strong>Content Creators</strong></li>
+                    <li class="liconfig">MARKETPLACE</li>
+                    <li class="liconfig">STAKING SYSTEM</li>
+                    <br>
+                </ul>
+            
+                <ul class="roadmaplist" >
+                    <h1 class="h1road">Q3 - 2022</h1>
+                    <li class="liconfig">GUILD SYSTEM</li> 
+                    <li class="liconfig">Much more Marketing and Partnerships</li>
+                    <li class="liconfig">Soul rental system</li>
+                    <li class="liconfig">List token on more exchanges</li>
+                    <li class="liconfig">HOUSE SYSTEM</li>
+                    <li class="liconfig">MOBILE VERSION</li>
+                    <li class="liconfig">More Partnerships</li>
+                    <br><br>
+                </ul>
+            <p></p>
+        </section>
+    </div>
+
+    <div class="contact">
+        <section class="secontact" >
+            <h1>Social</h1>
+            <ul class="lcontact" style="display: inline;">
+                
+                <li>
+                    <a href="#" style="text-decoration-color: #642a9b;"><img src="images/twitter-icon.png" alt="Twitter" class="img-icon-contact"><p style="display: inline; padding-left: 10px; ">Twitter</p></a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration-color: #642a9b;"><img src="images/telegram-icon.png" alt="Telegram" class="img-icon-contact"><p style="display: inline; padding-left: 10px; ">Telegram</p></a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration-color: #642a9b;" ><img src="images/discord-icon.png" alt="discord" class="img-icon-contact"><p style="display: inline; padding-left: 10px; ">Discord</p></a>
+                </li>
+            </ul>
+            
+            <p class="pcontact">&copy;Halloween Souls 2021 - All Rights Reserved.</p>
+        </section> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

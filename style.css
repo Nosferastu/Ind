@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'enchanted';
+    src: url('fonts/Enchanted Land.otf') format('opentype');
+    font-weight: normal;
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+body{
+    margin: 0px;
+    background-color: black;
+    font-family: enchanted, Helvetica, sans-serif;
+    letter-spacing: 1.3px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.644);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    color: white;
+    padding: 4px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+.mute-button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    font-size: 1.4em;
+    display: inline-block;
+    
+}
+nav{
+    display: inline;
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(207, 190, 33);
+    font-weight: bold;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 30px;
+    padding-left: 10px;
+    font-size: 1.4em;
+}
+
+h1#titulo{
+    display: inline;
+    text-align: left;
+    padding-right: 30px;
+    font-size: 4em;
+    color: white;
+}
+
+section{
+    background: #240e38;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 200px;
+    max-width: 1700px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    
+}
+
+section#secontract{
+    background: black;
+    border-radius: 25px;
+    height: auto;
+    max-width: 440px;
+    min-width: 440px;
+    padding: 15px;
+    width: auto;
+    border: 2px solid white;
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.425);
+}
+p#contract{
+    padding: auto;
+    margin: auto;
+    color: white;
+    font-size: 100%;
+    font-weight: bolder;
+    font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+    font-style: justify;
+}
+section#contract{
+    height: auto;
+    background: black;
+}
+h1#contract{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+img#img-audio{
+    width: 25px;
+    height: 25px;
+}
+.shadowyellow{
+    box-shadow: 1px 1px 20px rgb(207, 190, 33);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin: 20px;
+    
+}
+div{
+    padding: 10px;
+}
+.headerback{
+    background: black;    
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+}
+.intro{
+    background: black;    
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+}
+.img-intro{
+    width: 100%;
+    max-width: 300px;
+}
+.secintro{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
+    max-width: 870px;
+    box-shadow: 1px 1px 20px rgb(207, 190, 33);
+}
+p#textintro{
+    display: inline-block;
+    text-align: justify;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 20px;
+    width: 49%;    
+}
+img#imgintro{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 7px;
+    min-width: 400px;
+    max-width: 400px;
+    width: 49%;
+}
+.prox{
+    text-align: center;
+}
+.tintro{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.contract{
+    border-radius: 0px 0px 0px 0px;
+    background: black;
+
+}
+
+section#road{
+    width: auto;
+    margin: auto;
+    max-width: 1170px;
+}
+section#gameplay{
+    width: auto;
+    margin: auto;
+    max-width: 1170px;
+    margin-bottom: 20px;
+}
+.divcontrolul{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.check-icon{
+    width: 27px;
+    height: 27px;
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+}
+.roadmap{
+    background: black; 
+    margin-bottom: 30px;
+}
+.roadmaplist{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    
+    list-style-type: none;
+    padding-left: 35px;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.liconfig{
+    text-decoration: underline;
+    text-decoration-skip: initial;
+    text-decoration-color: black;
+    
+    font-size: 25px;
+    padding-bottom: 7px;
+}
+.lidist{
+    text-decoration: underline;
+    text-decoration-skip: initial;
+    text-decoration-color: black;
+    
+    font-size: 25px;
+    padding-left: 27px;
+    padding-bottom: 7px;
+}
+.h1set{
+    margin: 0%;
+    padding: 0%;
+    font-size: 25px;
+    text-decoration-color: white;
+    display: inline-block;
+}
+h1#first{
+    padding-left: 30px;
+}
+h1#road{
+    
+    color: white;
+}
+.h1road{
+    display: inline;
+    padding-right: 150px;
+    font-size: 2.2em;
+    color: rgb(207, 190, 33);
+}
+
+.h1gameroad{
+    padding-left: 7px;
+    padding-bottom: 7px;
+    text-align: left;
+    font-size: 4em;
+}
+.h1game{
+    padding-left: 7px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 6em;
+}
+.p1game{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    text-align: justify;
+    font-size: 2.6em;
+}
+.gameplay{
+    
+    background: black; 
+}
+
+div#text-gameplay{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+}
+div#img-gameplay{
+    display: inline-block;
+    width: 49%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;    
+}
+
+.ulcontrol{
+    display: inline-block;
+    font-size: 43px;
+    margin: 0%;
+    padding-left: 50px;
+    
+}
+.licontrol:hover{
+    color: white;
+    cursor: pointer;
+}
+.ulcontrol2{
+    display: inline-block;
+    font-size: 43px;
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+    color: white;
+    list-style-type: none;
+}
+.arrow{
+    width: 40px;
+    height: 50px;
+}
+ul#ulprimeiro{
+    padding-left: 50px;
+}
+div#img-gameplay > img{
+    width: 100%;
+    max-width: 580px;
+}
+
+.contact{
+    margin-top: 0%;
+    padding-top: 0%;
+    background: black;
+}
+.contact > section{
+    margin-top: 0%;
+    padding-top: 0%;
+    background: black;
+    
+}
+.img-icon-contact{
+    margin: 0%;
+    padding: 0%;
+    padding-left: 10px;
+    
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.lcontact{
+    margin-top: 0%;
+    padding-top: 0%;
+    
+    text-decoration: none;
+    
+}
+.pcontact{
+    text-align: right;
+    padding: 0%;
+    margin: 0%;
+
+}
+.secontact{
+    margin-top: 300px;
+    padding-top: 300px;
+}
+
+h1{
+    margin: auto;
+    padding: auto;
+    text-align: left;
+    font-size: 3em;
+    color: rgb(207, 190, 33);
+}
+h2{
+    margin: auto;
+    padding: auto;
+    font-size: 1.7em;
+    color: black;
+}
+h2#contract{
+    color: rgb(207, 190, 33);
+    font-family: 'Fredoka One';
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+p{
+    margin: auto;
+    padding: auto;
+    font-size: 1.5em;
+    text-align: justify;
+    color: white;
+    
+}
+img{
+    display: block;
+    padding-right: 0px;
+    margin: auto;
+    padding-top: 0px;
+}
+.img-header{
+    border-radius: 0px 0px 7px 7px;
+    background-image: url(images/header-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: auto;
+    height: 300px;
+    position: flex;
+}
