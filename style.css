@@ -83,6 +83,14 @@ section{
     
 }
 
+.imgex{
+    display: inline-block;
+    margin: 30px;
+    width: auto;
+}
+.divex{
+    text-align: center;
+}
 section#secontract{
     background: black;
     border-radius: 25px;
