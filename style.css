@@ -243,20 +243,20 @@ section#gameplay{
     text-decoration: underline;
     text-decoration-skip: initial;
     text-decoration-color: var(--black);
-    font-family: 'Poppins';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16.233px;
     padding-bottom: 7px;
-    font-style: bolder;
+    padding: 10px 0px 10px 0px;
+   
 }
 .lidist{
     text-decoration: underline;
     text-decoration-skip: initial;
     text-decoration-color: var(--black);
-    font-family: 'Poppins';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16.233px;
-    padding-left: 27px;
-    padding-bottom: 7px;
     font-style: bolder;   
+    padding: 10px 0px 10px 27px;
 }
 .h1set{
     margin: 0%;
@@ -273,12 +273,15 @@ h1#road{
     color: white;
 }
 .h1road{
-    display: inline;
+    display: inline-block;
     padding-right: 150px;
+    margin-bottom: 20px;
     font-size: 2.2em;
     color: #f6921d(207, 190, 33);
 }
-
+h1#q3road{
+    margin-bottom: 20px;
+}
 .h1gameroad{
     padding-left: 7px;
     padding-bottom: 7px;
