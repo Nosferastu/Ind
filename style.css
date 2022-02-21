@@ -226,8 +226,8 @@ section#gameplay{
 }
 .roadmap{
     background: var(--black); 
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 5px;
 }
 .roadmaplist{
     display: inline-block;
