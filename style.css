@@ -89,6 +89,7 @@ section{
     width: auto;
 }
 .divex{
+    padding: 0%;
     text-align: center;
 }
 section#secontract{
@@ -399,6 +400,17 @@ h2#contract{
     font-size: 2em;
     padding-top: 20px;
     padding-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+    display: inline-block;
+}
+h2#arrowcustom{
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+.buy{
     text-align: center;
 }
 p{
