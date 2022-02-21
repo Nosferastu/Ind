@@ -74,6 +74,7 @@ h1#titulo{
     padding-right: 30px;
     font-size: 4em;
     color: white;
+    text-shadow: 10px 10px 20px black;
 }
 
 section{
@@ -122,6 +123,7 @@ section#contract{
     background: var(--black);
 }
 h1#contract{
+    text-shadow: 10px 10px 20px black;
     text-align: center;
     margin-top: 0px;
     padding-top: 0px;
@@ -133,10 +135,8 @@ img#img-audio{
 }
 .shadowyellow{
     box-shadow: 1px 1px 20px #f6921d;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin: 20px;
-    
+   padding: 0%; 
+   margin: 0%;
 }
 div{
     padding: 10px;
@@ -173,7 +173,8 @@ p#textintro{
     margin: 0%;
     padding: 0%;
     padding-left: 20px;
-    width: 49%;    
+    width: 49%;  
+    text-shadow: 1px 1px 20px black;  
 }
 img#imgintro{
     display: inline-block;
@@ -191,6 +192,7 @@ img#imgintro{
     padding-bottom: 0px;
     margin-bottom: 0px;
     text-align: center;
+    text-shadow: 1px 1px 20px black;
 }
 .contract{
     border-radius: 0px 0px 0px 0px;
@@ -233,7 +235,7 @@ section#gameplay{
     font-size: 25px;
     
     list-style-type: none;
-    padding-left: 35px;
+    padding-left: 30px;
     padding-top: 0%;
     margin-top: 0%;
     margin-bottom: 10px;
@@ -245,18 +247,32 @@ section#gameplay{
     text-decoration-color: var(--black);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16.233px;
-    padding-bottom: 7px;
-    padding: 10px 0px 10px 0px;
+    padding: 0%;
+    margin: 0%;
+    padding: 7px;
+    padding-bottom: 15px;
    
+}
+ul#firstl{
+    display: inline-block;
+    
+}
+
+li > strong{
+    text-shadow: .5px .5px 14px #f6921d;
 }
 .lidist{
     text-decoration: underline;
     text-decoration-skip: initial;
     text-decoration-color: var(--black);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
     font-size: 16.233px;
+    padding: 7px;
+    padding-bottom: 15px;
+    padding-left: 35px;
     font-style: bolder;   
-    padding: 10px 0px 10px 27px;
 }
 .h1set{
     margin: 0%;
@@ -264,12 +280,13 @@ section#gameplay{
     font-size: 25px;
     text-decoration-color: white;
     display: inline-block;
+    text-shadow: 1px 1px 20px black;
 }
 h1#first{
     padding-left: 30px;
 }
 h1#road{
-    
+    text-shadow: 1px 1px 20px black;
     color: white;
 }
 .h1road{
@@ -278,13 +295,14 @@ h1#road{
     margin-bottom: 20px;
     font-size: 2.2em;
     color: #f6921d(207, 190, 33);
+    text-shadow: 1px 1px 20px black;
 }
 h1#q3road{
-    margin-bottom: 20px;
+    padding-bottom: 5px;
 }
 .h1gameroad{
     padding-left: 7px;
-    padding-bottom: 7px;
+    padding-bottom: 15px;
     text-align: left;
     font-size: 4em;
 }
@@ -293,6 +311,7 @@ h1#q3road{
     padding-bottom: 20px;
     text-align: center;
     font-size: 6em;
+    text-shadow: 1px 1px 20px black;
 }
 .p1game{
     padding-left: 15px;
@@ -300,6 +319,7 @@ h1#q3road{
     padding-bottom: 50px;
     text-align: justify;
     font-size: 2.6em;
+    text-shadow: 1px 1px 20px black;
 }
 .gameplay{
     
@@ -403,6 +423,7 @@ h2{
     padding: auto;
     font-size: 1.7em;
     color: var(--yellow);
+    text-shadow: 1px 1px 20px black;
 }
 h2#contract{
     color: #f6921d(207, 190, 33);
@@ -413,6 +434,7 @@ h2#contract{
     text-align: center;
     text-decoration: underline;
     text-decoration-color: black;
+    text-shadow: 1px 1px 20px black;
     display: inline-block;
 }
 h2#arrowcustom{
@@ -429,7 +451,7 @@ p{
     font-size: 1.5em;
     text-align: justify;
     color: white;
-    
+    text-shadow: 1px 1px 20px black;
 }
 img{
     display: block;
