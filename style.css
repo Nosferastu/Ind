@@ -6,7 +6,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@900&display=swap');
 
 :root{
 
@@ -238,18 +238,20 @@ section#gameplay{
     text-decoration: underline;
     text-decoration-skip: initial;
     text-decoration-color: var(--black);
-    
-    font-size: 25px;
+    font-family: 'Poppins';
+    font-size: 16.233px;
     padding-bottom: 7px;
+    font-style: bolder;
 }
 .lidist{
     text-decoration: underline;
     text-decoration-skip: initial;
     text-decoration-color: var(--black);
-    
-    font-size: 25px;
+    font-family: 'Poppins';
+    font-size: 16.233px;
     padding-left: 27px;
     padding-bottom: 7px;
+    font-style: bolder;   
 }
 .h1set{
     margin: 0%;
