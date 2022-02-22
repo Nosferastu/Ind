@@ -89,12 +89,7 @@ section{
     
 }
 
-.imgex{
-    display: inline-block;
-    margin: 30px;
-    width: auto;
-    
-}
+
 .divex{
     padding: 0%;
     text-align: center;
@@ -167,11 +162,17 @@ h1#contract{
     padding-top: 0px;
     padding-bottom: 10px;
 }
+
 img#imgpvt{
     margin: 0%;
     margin-top: 30px;
     max-width: 100px;
     max-height: 100px;
+}
+.imgex{
+    display: inline-block;
+    margin: 30px;
+    width: auto;
 }
 img#img-audio{
     width: 25px;
@@ -471,7 +472,7 @@ h2{
 h2#contract{
     color: #f6921d(207, 190, 33);
     font-family: enchanted;
-    font-size: 2.42em;
+    font-size: 2.4em;
     margin-top: 30px;
     padding-bottom: 0px;
     text-align: center;
