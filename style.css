@@ -104,6 +104,27 @@ section#secontract{
     border: 2px solid white;
     box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.425);
 }
+section#seplay{
+    background: var(--darkpurple);
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 4.5em;
+    height: auto;
+    max-width: 305px;
+    width: auto;
+    border: 2px solid black;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.692);
+}
+section#seplay:hover{
+    background: var(--yellow);
+    border: 2px solid var(--yellow);
+    box-shadow: 1px 1px 20px var(--yellow);
+    color: black;
+    cursor: pointer;
+}
+
+
 .shadow{
     margin: auto;
     width: auto;
