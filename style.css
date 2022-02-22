@@ -93,6 +93,7 @@ section{
     display: inline-block;
     margin: 30px;
     width: auto;
+    
 }
 .divex{
     padding: 0%;
@@ -111,6 +112,7 @@ section#secontract{
 }
 .shadow{
     margin: auto;
+    width: auto;
     max-width: 1170px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -160,9 +162,16 @@ section#contract{
 h1#contract{
     text-shadow: 10px 10px 20px black;
     text-align: center;
+    font-size: 3.7em;
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 10px;
+}
+img#imgpvt{
+    margin: 0%;
+    margin-top: 30px;
+    max-width: 100px;
+    max-height: 100px;
 }
 img#img-audio{
     width: 25px;
@@ -461,9 +470,9 @@ h2{
 }
 h2#contract{
     color: #f6921d(207, 190, 33);
-    font-family: 'Fredoka One';
-    font-size: 2em;
-    padding-top: 20px;
+    font-family: enchanted;
+    font-size: 2.42em;
+    margin-top: 30px;
     padding-bottom: 0px;
     text-align: center;
     text-decoration: underline;
