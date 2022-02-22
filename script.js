@@ -1,8 +1,3 @@
-function play(){
-    let music = document.getElementById('background_audio');
-    music.play;
-}
-play.js
 
 function mute(){
     let mute = document.getElementById('background_audio').muted;

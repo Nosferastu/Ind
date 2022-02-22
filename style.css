@@ -110,46 +110,38 @@ section#secontract{
     box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.425);
 }
 .shadow{
-    margin: auto ;
-    position: relative;
+    margin: auto;
     max-width: 1170px;
+    margin-top: 20px;
     margin-bottom: 20px;
     content: '';
-    margin: auto;
-    padding: 15px;
+    padding: 8px;
     top: -2px;
     left: -2px;
-    background: linear-gradient(45deg, #fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+    background: linear-gradient(45deg,#080408,#020102,var(--black),var(--darkpurple),var(--lightpurple),var(--orange),var(--yellow),var(--orange),var(--lightpurple),var(--darkpurple), var(--black), #080408,#020102);
     background-size: 400%;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    filter: blur(20px);
+    z-index: -1;
     animation: animate 20s linear infinite;
-    
+    border-radius: 15px;
+    box-shadow: .5px .5px 10px black;
 }
 
 @keyframes animate
+{
+    0%
     {
-        0%
-        {
         background-position: 0 0;
-    }
-    25%
-    {
-        background-position: 150%;
     }
     50%
     {
-      background-position: 300%;
-    }
-    75%
-    {
-        background-position: 75%;
+      background-position: 350% 0;
     }
     100%
     {
-       background-position: 500%;
-      }
+       background-position: 0 0;
+    }
     
 }
 p#contract{
@@ -197,8 +189,7 @@ div{
 .intro{
     background: var(--black);    
     padding: 0px;
-    
-    
+    border-radius: 15px;
 }
 .img-intro{
     width: 100%;
@@ -267,7 +258,8 @@ section#gameplay{
 .roadmap{
     background: var(--black); 
     padding: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    border-radius: 15px;
 }
 .roadmaplist{
     display: inline-block;
@@ -365,6 +357,7 @@ h1#q3road{
     padding: 0%;
     margin: 0%;
     background: var(--black); 
+    border-radius: 15px;
 }
 
 div#text-gameplay{
