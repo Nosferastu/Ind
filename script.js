@@ -1,4 +1,8 @@
-document.getElementById('background_audio').autoplay;
+function play(){
+    let music = document.getElementById('background_audio');
+    music.play;
+}
+play.js
 
 function mute(){
     let mute = document.getElementById('background_audio').muted;
@@ -7,6 +11,7 @@ function mute(){
         document.getElementById('background_audio').muted = false;
         document.getElementById('img-audio').src = '/images/unmute.png';
     }else if(mute == false){
+
         document.getElementById('background_audio').muted = true;
         document.getElementById('img-audio').src = '/images/mute.png';
     }  
