@@ -115,7 +115,7 @@ section#secontract{
     margin-top: 20px;
     margin-bottom: 20px;
     content: '';
-    padding: 8px;
+    padding: 5px;
     top: -2px;
     left: -2px;
     background: linear-gradient(45deg,#080408,#020102,var(--black),var(--darkpurple),var(--lightpurple),var(--orange),var(--yellow),var(--orange),var(--lightpurple),var(--darkpurple), var(--black), #080408,#020102);
