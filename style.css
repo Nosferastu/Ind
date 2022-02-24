@@ -139,6 +139,8 @@ section#seplay:hover{
     box-shadow: 1px 1px 20px var(--yellow);
     color: black;
     cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.2;
 }
 section#seplay > p:hover{
     color: black;
