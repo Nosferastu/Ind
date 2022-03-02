@@ -117,7 +117,7 @@ section#secontract{
     border: 2px solid white;
     box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.425);
 }
-section#seplay{
+.seplay{
     background: var(--darkpurple);
     border-radius: 200px;
     margin-top: 40px;
@@ -125,10 +125,14 @@ section#seplay{
     font-size: 4.5em;
     height: auto;
     text-align: center;
-    max-width: 400px;
+    min-width: auto;
+    max-width: 250px;
     width: auto;
     border: 5px solid white;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.692);
+}
+section#profit{
+    max-width: 400px;
 }
 .playbtn{
     text-align: center;
@@ -137,11 +141,12 @@ section#seplay{
     font-size: 1.1em;
 }
 p#profbtn{
+    
     font-size: 1em;
     margin: 0%;
     padding: 0%;
 }
-section#seplay:hover{
+.seplay:hover{
     background: var(--yellow);
     border: 5px solid var(--black);
     box-shadow: 1px 1px 20px var(--yellow);
@@ -150,7 +155,7 @@ section#seplay:hover{
     transform: scale(1.15);
     transition: all 0.2;
 }
-section#seplay > p:hover{
+.seplay > p:hover{
     color: black;
 }
 
