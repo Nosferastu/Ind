@@ -82,4 +82,5 @@ function clickright(){
         li2.style.color = 'black'
         li3.style.color = 'black'
     }
+    
 }
