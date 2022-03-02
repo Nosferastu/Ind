@@ -55,6 +55,7 @@ header{
     text-align: center;
     position: fixed;
     width: 100%;
+    z-index: +1;
 }
 .hovermenu:hover{
     text-shadow: 2px 2px 20px white;
