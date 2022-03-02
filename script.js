@@ -4,11 +4,11 @@ function mute(){
     
     if(mute == true){
         document.getElementById('background_audio').muted = false;
-        document.getElementById('img-audio').src = '/images/unmute.png';
+        document.getElementById('img-audio').src = 'images/unmute.png';
     }else if(mute == false){
 
         document.getElementById('background_audio').muted = true;
-        document.getElementById('img-audio').src = '/images/mute.png';
+        document.getElementById('img-audio').src = 'images/mute.png';
     }  
 }
 let li1 = document.getElementById('li1');
@@ -82,5 +82,5 @@ function clickright(){
         li2.style.color = 'black'
         li3.style.color = 'black'
     }
-    
+
 }
