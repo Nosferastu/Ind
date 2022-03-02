@@ -92,7 +92,7 @@ h1#titulo{
 section{
     background: var(--darkpurple);
     border-radius: 10px;
-    padding: 6px;
+    padding: 0;
     margin-top: 200px;
     max-width: 1700px;
     width: auto;
@@ -471,14 +471,16 @@ div#img-gameplay > img{
 
 .contact{
     margin-top: 0%;
-    padding-top: 0%;
+    padding: 0;
+    padding-bottom: 0%;
     background: black;
+    
 }
 .contact > section{
     margin-top: 0%;
     padding-top: 0%;
     background: black;
-    
+    text-decoration: underline;
 }
 .img-icon-contact{
     margin: 0%;
@@ -493,18 +495,20 @@ div#img-gameplay > img{
     margin-top: 0%;
     padding-top: 0%;
     
-    text-decoration: none;
     
 }
 .pcontact{
     text-align: right;
+    font-size: 1.5em;
+    letter-spacing: normal;
     padding: 0%;
     margin: 0%;
-
+    
 }
 .secontact{
     margin-top: 300px;
     padding-top: 300px;
+    
 }
 
 h1{
