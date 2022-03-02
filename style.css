@@ -340,7 +340,7 @@ section#gameplay{
     display: inline-block;
 }
 .roadmap{
-    background: var(--black); 
+    background: var(--darkpurple); 
     padding: 0px;
     margin-bottom: 0px;
     border-radius: 15px;
