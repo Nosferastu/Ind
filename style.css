@@ -181,7 +181,7 @@ div#shadowline{
 .shadow{
     margin: auto;
     width: auto;
-    max-width: 1170px;
+    max-width: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
     content: '';
