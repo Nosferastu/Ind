@@ -7,6 +7,7 @@
     <title>Halloween Souls</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     
@@ -32,12 +33,14 @@
 
     <div class="shadow" id="shadowline" style="margin: auto;  width: 100%; min-width: none; max-width: none; padding-left: 0; padding-right: 0;"></div>
     
-    <div class="shadow">
+    <div class="shadow" data-aos="fade-up">
         <div class="intro">
             <section class="secintro">
                 <h1 class="tintro" id="tintro">Trick or Treating</h1>
-                <img src="images/test-02.png" alt="img-intro" class="img-intro" id="imgintro"> 
-                <p class="tintro" id="textintro">Halloween Souls is set in the world of Nightmare where dark souls compete in risky competitions for greatness and roam in search of Candy, they don't mind playing pranks if they don't get what they want.
+                
+                    <img src="images/test-02.png" alt="img-intro" class="img-intro" id="imgintro"> 
+                
+                <p class="tintro" id="textintro" >Halloween Souls is set in the world of Nightmare where dark souls compete in risky competitions for greatness and roam in search of Candy, they don't mind playing pranks if they don't get what they want.
                 <br><br><br>
                 </p>
                   
@@ -49,7 +52,7 @@
         
         <div class="shadow" id="shadowline" style="width: 50%;"></div>
 
-    <div class="shadow">
+    <div class="shadow" data-aos="fade-up">
         <div class="gameplay" >
             <section class="shadowyellow" id="gameplay">
                 
@@ -87,7 +90,7 @@
         
     <div class="shadow" id="shadowline" style="width: 50%;"></div>
 
-        <section class="seplay">
+        <section class="seplay" data-aos="fade-right";>
             <a href="launcher/launcher.html" style="text-decoration: none;" target="_blank">
                 <p class="playbtn">Play Now</p>
             </a>   
@@ -112,7 +115,7 @@
                     <a href="#"><img src="images/poocoin.png" alt="poocoin" class="imgex"></a>
                     <a href="#"><img src="images/pancake.png" alt="pancake" class="imgex"></a>
                 </div>
-        <section class="seplay" id="profit">
+        <section class="seplay" id="profit" data-aos="fade-left";>
             <a href="#" style="text-decoration: none;">
                 <p class="playbtn" id="profbtn">Profit Calculator</p>
             </a>
@@ -187,7 +190,10 @@
             <p class="pcontact">&copy;Halloween Souls 2021 - All Rights Reserved.</p>
         </section> 
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

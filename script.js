@@ -5,6 +5,7 @@ function mute(){
     if(mute == true){
         document.getElementById('background_audio').muted = false;
         document.getElementById('img-audio').src = 'images/unmute.png';
+        
     }else if(mute == false){
 
         document.getElementById('background_audio').muted = true;
@@ -24,6 +25,7 @@ function click1(){
     li3.style.color = 'black'
     title.innerHTML = 'Gameplay'
     text.innerHTML = 'Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity?'
+    
 }
 function click2(){
     li1.style.color = 'black'
