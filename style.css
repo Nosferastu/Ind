@@ -4,6 +4,12 @@
     font-weight: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: 'movie';
+    src: url('fonts/Fifties\ Movies.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @font-face {
@@ -84,11 +90,21 @@ h1#titulo{
     display: inline;
     text-align: left;
     padding-right: 30px;
-    font-size: 4em;
+    font-size: 3.8em;
     color: white;
     text-shadow: 10px 10px 20px black;
 }
-
+h1#tintro{
+    
+    font-family: movie;
+    font-size: 3.5em;
+    padding: 10px;
+}
+h1#gameplaytitle{
+    padding-top: 10px;
+    font-family: movie;
+    font-size: 3.5em;
+}
 section{
     background: var(--darkpurple);
     border-radius: 10px;
@@ -299,6 +315,7 @@ section#road{
     margin: auto;
     max-width: 1170px;
 }
+
 section#gameplay{
     width: auto;
     margin: auto;
