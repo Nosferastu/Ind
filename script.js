@@ -27,6 +27,7 @@ function click1(){
     text.innerHTML = 'Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity?'
     
 }
+
 function click2(){
     li1.style.color = 'black'
     li2.style.color = 'white'
