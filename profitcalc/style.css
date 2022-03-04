@@ -231,7 +231,7 @@ ul#chance{
     filter: blur(20px);
 }
 .result{
-    background: linear-gradient(0deg,#080408,#262626);
+    background: linear-gradient(0deg,#262626,#080408,#080408,#080408,#080408,#080408,#080408,#080408,#080408,#080408,#080408,#080408,#080408,#262626);
     border-radius: 20px;
     padding-bottom: 11px;
 }
