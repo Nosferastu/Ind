@@ -67,7 +67,7 @@ body{
     position:absolute;
     top: -4px;
     left: -4px;
-    background: linear-gradient(45deg,#080408,#020102,var(--black),var(--darkpurple),var(--lightpurple),var(--orange),var(--yellow),var(--yellow),var(--orange),var(--lightpurple),var(--darkpurple), var(--black), #080408,#020102);
+    background: linear-gradient(90deg,#080408,#020102,var(--black),var(--darkpurple),var(--lightpurple),var(--orange),var(--yellow),var(--yellow),var(--orange),var(--lightpurple),var(--darkpurple), var(--black), #080408,#020102);
     background-size: 400%;
     width: calc(100% + 8px);
     height: calc(100% + 8px);
@@ -81,17 +81,18 @@ body{
 }
 .h1first{
     
-    font-size: 4.5em;
+    font-size: 6em;
+    margin-bottom: 25px;
     color: var(--yellow);
-    text-shadow: 1px 1px 30px var(--black);
+    text-shadow: 3px 3px 30px var(--black);
     
 }
 .shadowrarities{
     display: inline-block;
     padding: 0;
     margin: auto;
-    min-width: none;
-    width: 300px;
+    width: auto;
+    max-width: 420px;
     background: linear-gradient(90deg, var(--black),var(--darkpurple),var(--lightpurple),var(--yellow));
     background-size: 100% 100%;
     border-radius: 20px;
@@ -119,7 +120,7 @@ body{
     filter: blur(20px);
 }
 .divrarities{
-    background: linear-gradient(0deg,#080408,#262626);
+    background: linear-gradient(0deg,#262626,#080408,#080408,#080408,#080408,#262626);
     border-radius: 20px;
     text-align: left;
     padding-left: 15px;
@@ -134,10 +135,17 @@ body{
     color: white;
     
 }
+ul#chance{
+    padding-top: 10px;
+    padding-left: 40px;
+    
+    font-size: 2.5em;
+    color: var(--orange);
+}
 .ulamount{
     display: inline-block;
     list-style: none;
-    color: white;
+    color: var(--yellow);
     font-size: 2em;
     margin-left: 40px;
 }
@@ -146,7 +154,27 @@ body{
     max-height: 45px;
     cursor: pointer;
 }
-
+.mintbtn{
+    display: inline-block;
+    color: var(--yellow);
+    font-size: 2em;
+    background-color: #b14623;
+    border: 2px solid black;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 285px;
+    margin-bottom: 0px;
+}
+.mintbtn:hover{
+    background-color: var(--yellow);
+    color: var(--orange);
+    border: 2px solid #b14623;
+    box-shadow: 2px 2px 20px #b14623;
+    cursor: pointer;
+}
 .checkbtn{
     display: inline-block;
     color: var(--yellow);
@@ -157,7 +185,7 @@ body{
     border-radius: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 180px;
+    margin-left: 295px;
     margin-bottom: 10px;
 }
 .checkbtn:hover{
@@ -217,7 +245,7 @@ body{
     display: inline-block;
 }
 .h1sub{
-    color: var(--yellow);
+    color: var(--orange);
     font-size: 3em;
     margin-left: 20px;
 }
@@ -234,5 +262,5 @@ body{
 .itemresult{
     list-style: none;
     font-size: 2em;
-    color: #f6921d;
+    color: var(--yellow);
 }
