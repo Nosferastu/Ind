@@ -14,13 +14,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 :root{
-
-        --yellow: #f6921d;
-        --black: #130912;
-        --lightpurple: #602749;
-        --gray: #606060;
-        --orange: #b14623;
-        --darkpurple: #3e1c33;
+    --yellow: #f6921d;
+    --black: #130912;
+    --lightpurple: #602749;
+    --gray: #606060;
+    --orange: #b14623;
+    --darkpurple: #3e1c33;
 }
 
 body{
