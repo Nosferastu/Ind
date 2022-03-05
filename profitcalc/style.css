@@ -19,8 +19,8 @@
     }
 }
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 :root{
     --yellow: #f6921d;
@@ -31,7 +31,7 @@
     --darkpurple: #3e1c33;
 }
 html{
-    height: auto;
+    height: max-content;
     
 }
 body{
@@ -49,7 +49,7 @@ body{
     margin-bottom: 10px;
     height: auto;
     width: auto;
-    max-width: 950px;
+    max-width: 1050px;
     max-height: auto;
     background: linear-gradient(0deg,#080408,#262626);
     border-radius: 20px;
@@ -78,7 +78,7 @@ body{
 }
 .h1first{
     position: absolute;
-    left: 470px;
+    left: 525px;
     top: 30px;
     font-size: 6em;
     margin-bottom: 0px;
@@ -343,6 +343,6 @@ ul#chance{
     letter-spacing: normal;
     padding: 0%;
     margin: 0%;
-    margin-right: 20px;
+    margin-right: 10px;
     color: white;
 }
