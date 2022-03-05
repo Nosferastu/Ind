@@ -31,13 +31,14 @@
     --darkpurple: #3e1c33;
 }
 html{
-    height: 111%;
+    height: auto;
+    
 }
 body{
     margin: 0;
     padding: 0;
     background: linear-gradient(0deg,#080408,#262626);
-    bottom: 0;
+    height: 100%;
     font-family: 'enchanted', Arial, Helvetica, sans-serif;
     letter-spacing: 1,3px;
 }
