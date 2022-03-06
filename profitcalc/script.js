@@ -16,7 +16,7 @@ function mint(){
     let Super = Number(numSuper.innerHTML);
     let Epic = Number(numEpic.innerHTML);
     let Legen = Number(numLegen.innerHTML);
-    let tot = Common + Rare + Super + Epic + Legen
+    let tot = Common + Rare + Super + Epic + Legen;
     if(tot < 10){
         Common = Common + 8
         Rare = Rare + 1
