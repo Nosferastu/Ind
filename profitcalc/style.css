@@ -31,16 +31,17 @@
     --darkpurple: #3e1c33;
 }
 html{
-    height: max-content;
+    
     
 }
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(0deg,#080408,#262626);
+    background: linear-gradient(90deg,#080408,#262626);
     height: 100%;
     font-family: 'enchanted', Arial, Helvetica, sans-serif;
     letter-spacing: 1,3px;
+    background-size: 100% 100%;
 }
 .shadow{
     position:relative;
@@ -79,7 +80,7 @@ body{
 }
 .h1first{
     position: absolute;
-    left: 525px;
+    left: 540px;
     top: 30px;
     font-size: 6em;
     margin-bottom: 0px;
@@ -93,7 +94,7 @@ body{
     margin: auto;
     margin-top: 30px;
     width: auto;
-    max-width: 420px;
+    max-width: 440px;
     background: linear-gradient(90deg, var(--black),var(--darkpurple),var(--lightpurple),var(--yellow));
     background-size: 100% 100%;
     border-radius: 20px;
@@ -176,7 +177,7 @@ div#totsoul{
 div#cleanbtn{
     display: inline-block;
     position: absolute;
-    right: 165px;
+    right: 185px;
 }
 .mintbtn{
     display: inline-block;
@@ -225,7 +226,7 @@ div#cleanbtn{
     padding: 0;
     margin: auto;
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 10px;
     min-width: none;
     width: auto;
     max-width: 600px;
@@ -369,4 +370,5 @@ div#cleanbtn{
     margin: 0%;
     margin-right: 10px;
     color: white;
+    
 }
