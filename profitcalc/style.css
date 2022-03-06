@@ -85,7 +85,8 @@ body{
     font-size: 6em;
     margin-bottom: 0px;
     color: var(--yellow);
-    text-shadow: 3px 3px 30px var(--black);
+    text-shadow: 3px 3px 30px black;
+    
     
 }
 .shadowrarities{
