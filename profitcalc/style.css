@@ -50,6 +50,7 @@ body{
     height: auto;
     width: auto;
     max-width: 1050px;
+    max-width: 1050px;
     max-height: auto;
     background: linear-gradient(0deg,#080408,#262626);
     border-radius: 20px;

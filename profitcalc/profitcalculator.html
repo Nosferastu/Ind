@@ -14,11 +14,11 @@
         <h1 class="h1first">Profit Calculator</h1>
         <div class="shadowrarities">
             <div class="divrarities">
-                    <div class="mintbtn">Mint 10!</div>
+                    <div class="mintbtn" onclick="mint()">Mint 10!</div>
                 
                 
                 <ul class="ulrarities">
-                    <li class="itemli">Commum</li>
+                    <li class="itemli">Common</li>
                     <li class="itemli">Rare</li>
                     <li class="itemli">Super Rare</li>
                     <li class="itemli">Epic</li>
@@ -32,23 +32,23 @@
                     <li class="itemli">0.69%</li>
                 </ul>
                 <ul class="ulamount">
-                    <li><img src="../images/left-arrow.png" alt="" class="arrow">
-                        <span class="amount">0</span>
-                        <img src="../images/right-arrow.png" alt="" class="arrow"></li>
-                    <li><img src="../images/left-arrow.png" alt="" class="arrow">
-                        <span class="amount">0</span>
-                        <img src="../images/right-arrow.png" alt="" class="arrow"></li>
-                    <li><img src="../images/left-arrow.png" alt="" class="arrow">
-                        <span class="amount">0</span>
-                        <img src="../images/right-arrow.png" alt="" class="arrow"></li>
-                    <li><img src="../images/left-arrow.png" alt="" class="arrow">
-                        <span class="amount">0</span>
-                        <img src="../images/right-arrow.png" alt="" class="arrow"></li>
-                    <li><img src="../images/left-arrow.png" alt="" class="arrow">
-                        <span class="amount">0</span>
-                        <img src="../images/right-arrow.png" alt="" class="arrow"></li>
+                    <li><img src="../images/left-arrow.png" alt="" class="arrow" id="arrowleft" onclick="leftCommon()">
+                        <span class="amount" id="numCommon">0</span>
+                        <img src="../images/right-arrow.png" alt="" class="arrow" id="arrowright" onclick="rightCommon()"></li>
+                    <li><img src="../images/left-arrow.png" alt="" class="arrow" id="arrowleft" onclick="leftRare()">
+                        <span class="amount" id="numRare">0</span>
+                        <img src="../images/right-arrow.png" alt="" class="arrow" id="arrowright" onclick="rightRare()"></li>
+                    <li><img src="../images/left-arrow.png" alt="" class="arrow" id="arrowleft" onclick="leftSuper()">
+                        <span class="amount" id="numSuper">0</span>
+                        <img src="../images/right-arrow.png" alt="" class="arrow" id="arrowright" onclick="rightSuper()"></li>
+                    <li><img src="../images/left-arrow.png" alt="" class="arrow" id="arrowleft" onclick="leftEpic()">
+                        <span class="amount" id="numEpic">0</span>
+                        <img src="../images/right-arrow.png" alt="" class="arrow" id="arrowright" onclick="rightEpic()"></li>
+                    <li><img src="../images/left-arrow.png" alt="" class="arrow" id="arrowleft" onclick="leftLegen()">
+                        <span class="amount" id="numLegen">0</span>
+                        <img src="../images/right-arrow.png" alt="" class="arrow" id="arrowright" onclick="rightLegen()"></li>
                 </ul>
-                <div class="checkbtn">Check</div>
+                <div class="checkbtn" onclick="check()">Check</div>
             </div>
             
 
@@ -71,9 +71,9 @@
                     
                     <ul class="ulresult">
                         <h2 class="h2sub">Candy</h2>
-                        <li class="itemresult"><span>0</span></li>
-                        <li class="itemresult"><span>0</span></li>
-                        <li class="itemresult"><span>0</span></li>
+                        <li class="itemresult"><span id="resultcost1">0</span></li>
+                        <li class="itemresult"><span id="resultcost7">0</span></li>
+                        <li class="itemresult"><span id="resultcost30">0</span></li>
                     </ul>
                     </div>
                     
@@ -91,9 +91,9 @@
                     
                     <ul class="ulresult">
                         <h2 class="h2sub">Candy</h2>
-                        <li class="itemresult"><span>0</span></li>
-                        <li class="itemresult"><span>0</span></li>
-                        <li class="itemresult"><span>0</span></li>
+                        <li class="itemresult"><span id="resultprofit1">0</span></li>
+                        <li class="itemresult"><span id="resultprofit7">0</span></li>
+                        <li class="itemresult"><span id="resultprofit30">0</span></li>
                     </ul>
                     </div>
             </div>
