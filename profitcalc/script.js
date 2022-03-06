@@ -9,6 +9,32 @@ let resultcost30 = document.getElementById('resultcost30');
 let resultprofit1 = document.getElementById('resultprofit1');
 let resultprofit7 = document.getElementById('resultprofit7');
 let resultprofit30 = document.getElementById('resultprofit30');
+let txttot = document.getElementById('totsoul');
+let Common = Number(numCommon.innerHTML);
+let Rare = Number(numRare.innerHTML);
+let Super = Number(numSuper.innerHTML);
+let Epic = Number(numEpic.innerHTML);
+let Legen = Number(numLegen.innerHTML);
+let tot = Common + Rare + Super + Epic + Legen;
+
+  
+function clean(){
+    numCommon.innerHTML = 0
+    numEpic.innerHTML = 0
+    numLegen.innerHTML = 0
+    numRare.innerHTML = 0
+    numSuper.innerHTML = 0
+    resultcost1.innerHTML = 0
+    resultcost7.innerHTML = 0
+    resultcost30.innerHTML = 0
+    resultprofit1.innerHTML = 0
+    resultprofit7.innerHTML = 0
+    resultprofit30.innerHTML = 0
+    if(Common == 0 && Rare == 0 && Super == 0 && Epic == 0 && Legen == 0){
+        tot = 0
+        txttot.innerHTML = String(tot)
+    }
+}
 
 function mint(){
     let Common = Number(numCommon.innerHTML);
@@ -16,51 +42,65 @@ function mint(){
     let Super = Number(numSuper.innerHTML);
     let Epic = Number(numEpic.innerHTML);
     let Legen = Number(numLegen.innerHTML);
-    let tot = Common + Rare + Super + Epic + Legen;
+    
+   
     if(tot < 10){
         Common = Common + 8
         Rare = Rare + 1
         Super = Super + 1
+        tot = tot + 10
     }else if(tot < 20){
         Common = Common + 9
         Rare = Rare + 1
+        tot = tot + 10
     }else if(tot < 30){
         Common = Common + 8
         Rare = Rare + 1
         Super = Super + 1
+        tot = tot + 10
     }else if(tot < 40){
         Common = Common + 9
         Rare = Rare + 1
+        tot = tot + 10
     }else if(tot < 50){
         Common = Common + 7
         Rare = Rare + 1
         Super = Super + 1
         Epic = Epic + 1
+        tot = tot + 10
     }else if(tot < 60){
         Common = Common + 9
         Rare = Rare + 1
+        tot = tot + 10
     }else if(tot < 70){
         Common = Common + 8
         Rare = Rare + 1
         Super = Super + 1
+        tot = tot + 10
     }else if(tot < 80){
         Common = Common + 9
         Rare = Rare + 1
+        tot = tot + 10
     }else if(tot < 90){
         Common = Common + 8
         Rare = Rare + 1
         Super = Super + 1
+        tot = tot + 10
     }
     else if(tot < 91){
         Common = Common + 8
         Rare = Rare + 1
         Legen = Legen + 1
+        tot = tot + 10
     }
+    
+    txttot.innerHTML = String(tot)
     numCommon.innerHTML = String(`${Common}`)
     numRare.innerHTML = String(`${Rare}`)
     numSuper.innerHTML = String(`${Super}`)
     numEpic.innerHTML = String(`${Epic}`)
     numLegen.innerHTML = String(`${Legen}`)
+    
 }
 function check(){
     let Common = Number(numCommon.innerHTML);
@@ -98,15 +138,19 @@ function leftCommon(){
         numCommon.innerHTML = 0
     }else{
         count--;
+        tot = tot - 1
+        txttot.innerHTML = String(tot)
     }
     numCommon.innerHTML = `${String(count)}`
-
+    
 }
 function rightCommon(){
     let count = Number(numCommon.innerHTML)
     if((Number(numCommon.innerHTML) + Number(numRare.innerHTML) + Number(numSuper.innerHTML) + Number(numEpic.innerHTML) + Number(numLegen.innerHTML))  < 100){
         count++;
+        tot = tot + 1
         numCommon.innerHTML = `${String(count)}`
+        txttot.innerHTML = String(tot)
     }
     
     
@@ -118,6 +162,8 @@ function leftRare(){
         numRare.innerHTML = 0
     }else{
         count--;
+        tot = tot - 1
+        txttot.innerHTML = String(tot)
     }
     numRare.innerHTML = `${String(count)}`
 
@@ -126,7 +172,9 @@ function rightRare(){
     let count = Number(numRare.innerHTML)
     if((Number(numCommon.innerHTML) + Number(numRare.innerHTML) + Number(numSuper.innerHTML) + Number(numEpic.innerHTML) + Number(numLegen.innerHTML))  < 100){
     count++;
+    tot = tot + 1
     numRare.innerHTML = `${String(count)}`
+    txttot.innerHTML = String(tot)
     }
 }
 
@@ -136,6 +184,8 @@ function leftSuper(){
         numSuper.innerHTML = 0
     }else{
         count--;
+        tot = tot - 1
+        txttot.innerHTML = String(tot)
     }
     numSuper.innerHTML = `${String(count)}`
 
@@ -144,7 +194,9 @@ function rightSuper(){
     let count = Number(numSuper.innerHTML)
     if((Number(numCommon.innerHTML) + Number(numRare.innerHTML) + Number(numSuper.innerHTML) + Number(numEpic.innerHTML) + Number(numLegen.innerHTML))  < 100){
     count++;
+    tot = tot + 1
     numSuper.innerHTML = `${String(count)}`
+    txttot.innerHTML = String(tot)
     }
 }
 
@@ -154,6 +206,8 @@ function leftEpic(){
         numEpic.innerHTML = 0
     }else{
         count--;
+        tot = tot - 1
+        txttot.innerHTML = String(tot)
     }
     numEpic.innerHTML = `${String(count)}`
 
@@ -162,7 +216,9 @@ function rightEpic(){
     let count = Number(numEpic.innerHTML)
     if((Number(numCommon.innerHTML) + Number(numRare.innerHTML) + Number(numSuper.innerHTML) + Number(numEpic.innerHTML) + Number(numLegen.innerHTML))  < 100){
     count++;
+    tot = tot + 1
     numEpic.innerHTML = `${String(count)}`
+    txttot.innerHTML = String(tot)
     }
 }
 
@@ -172,6 +228,8 @@ function leftLegen(){
         numLegen.innerHTML = 0
     }else{
         count--;
+        tot = tot - 1
+        txttot.innerHTML = String(tot)
     }
     numLegen.innerHTML = `${String(count)}`
 
@@ -180,6 +238,8 @@ function rightLegen(){
     let count = Number(numLegen.innerHTML)
     if((Number(numCommon.innerHTML) + Number(numRare.innerHTML) + Number(numSuper.innerHTML) + Number(numEpic.innerHTML) + Number(numLegen.innerHTML))  < 100){
     count++;
+    tot = tot + 1
     numLegen.innerHTML = `${String(count)}`
+    txttot.innerHTML = String(tot)
     }
 }
