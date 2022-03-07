@@ -24,7 +24,7 @@ function click1(){
     li2.style.color = 'black'
     li3.style.color = 'black'
     title.innerHTML = 'Gameplay'
-    text.innerHTML = 'Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity?'
+    text.innerHTML = 'Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity? or you will be a big winner!'
     
 }
 
@@ -59,7 +59,7 @@ function clickleft(){
         li3.style.color = 'black'
     }else if(li2.style.color == 'white'){
         title.innerHTML = 'Gameplay'
-        text.innerHTML = 'Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity?'
+        text.innerHTML = 'Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity? or you will be a big winner!'
         li1.style.color = 'white'
         li2.style.color = 'black'
         li3.style.color = 'black'
@@ -80,7 +80,7 @@ function clickright(){
         li3.style.color = 'white'
     }else if(li3.style.color == 'white'){
         title.innerHTML = 'Gameplay'
-        text.innerHTML = 'Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity?'
+        text.innerHTML = 'Venture into the amazing world of Nightmare in dangerous races in PVM mode or in incredible duels in our PVP mode to become the master of Candys, will you miss this opportunity? or you will be a big winner!'
         li1.style.color = 'white'
         li2.style.color = 'black'
         li3.style.color = 'black'

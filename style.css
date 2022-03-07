@@ -174,7 +174,7 @@ div#shadowline{
 .shadow{
     margin: auto;
     width: auto;
-    max-width: 90%;
+    max-width: 1200px;
     margin-top: 20px;
     margin-bottom: 20px;
     content: '';
@@ -306,11 +306,7 @@ img#imgintro{
     text-shadow: 1px 1px 20px black;
 }
 
-section#road{
-    width: auto;
-    margin: auto;
-    max-width: 1170px;
-}
+
 
 section#gameplay{
     width: auto;
@@ -338,16 +334,10 @@ section#gameplay{
     margin-bottom: 0px;
     border-radius: 15px;
 }
-.roadmaplist{
-    display: inline-block;
-    color: white;
-    font-size: 25px;
-    
-    list-style-type: none;
-    padding-left: 30px;
-    padding-top: 0%;
-    margin-top: 0%;
-    margin-bottom: 10px;
+.imgroad{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
 }
 
 .liconfig{
@@ -394,27 +384,7 @@ li > strong{
 h1#first{
     padding-left: 30px;
 }
-h1#road{
-    text-shadow: 1px 1px 20px black;
-    color: white;
-}
-.h1road{
-    display: inline-block;
-    padding-right: 150px;
-    margin-bottom: 20px;
-    font-size: 2.2em;
-    color: #f6921d(207, 190, 33);
-    text-shadow: 1px 1px 20px black;
-}
-h1#q3road{
-    padding-bottom: 5px;
-}
-.h1gameroad{
-    padding-left: 7px;
-    padding-bottom: 15px;
-    text-align: left;
-    font-size: 4em;
-}
+
 .h1game{
     padding-left: 7px;
     padding-bottom: 20px;
