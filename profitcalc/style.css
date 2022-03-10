@@ -365,8 +365,8 @@ div#cleanbtn{
     letter-spacing: normal;
     padding: 0%;
     margin: 0%;
-    margin-right: 10px;
-    color: white;
     position: absolute;
-    top: 96%;
+    color: white;
+    bottom: 5px;
+    right: 5px;
 }

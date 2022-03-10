@@ -488,12 +488,14 @@ div#img-gameplay > img{
     letter-spacing: normal;
     padding: 0%;
     margin: 0%;
+    position: relative;
     
 }
 .secontact{
     margin-top: 300px;
     padding-top: 300px;
-    
+    margin: 0;
+    max-width: none;
 }
 .secontact > h1 {
     padding-left: 30px;
