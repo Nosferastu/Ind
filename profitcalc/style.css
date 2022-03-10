@@ -153,6 +153,7 @@ ul#chance{
 .arrow{
     max-width: 45px;
     max-height: 45px;
+    margin-top: 5px;
     cursor: pointer;
 }
 div#totsoul{
@@ -288,7 +289,9 @@ div#cleanbtn{
     font-size: 2em;
     color: var(--yellow);
 }
-
+.itemli{
+    padding-bottom: 15px;
+}
 .shadownftitens{
     display: inline-block;
     padding: 0;
@@ -345,12 +348,7 @@ div#cleanbtn{
     border: 2px solid #b14623;
     box-shadow: 5px 5px 20px #b14623;
 }
-.imgarrow{
-    margin-bottom: 110px;
-    cursor: pointer;
-    min-height: 50px;
-    min-width: 50px;
-}
+
 .listnft{
     color: white;
 }
