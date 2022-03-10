@@ -31,9 +31,9 @@ body{
     margin-top: 30px;
     margin-bottom: 0px;
     height: auto;
-    min-width: 1050px;
-    min-height: 300px;
-    max-width: 1050px;
+    min-width: 1400px;
+    min-height: 500px;
+    max-width: 1400px;
     max-height: 600px;
     background: linear-gradient(0deg,#080408,#262626);
     border-radius: 20px;
@@ -82,6 +82,7 @@ body{
     display: inline-block;
     max-width: 600px;
     max-height: 600px;
+    margin-top: 120px;
     text-align: center;
     margin-bottom: 97px;
     box-shadow: 2px 2px 20px var(--yellow);
@@ -113,7 +114,7 @@ body{
     margin: auto;
     margin-top: 20px;
     position: absolute;
-    left: 485px;
+    left: 640px;
     bottom: 60px;
     animation: loading 2s linear infinite;
 }
@@ -126,7 +127,7 @@ body{
     margin: auto;
     margin-top: 20px;
     position: absolute;
-    left: 545px;
+    left: 700px;
     bottom: 50px;
     animation: loading2 2s linear infinite;
 }
@@ -139,7 +140,7 @@ body{
     margin: auto;
     margin-top: 20px;
     position: absolute;
-    left: 525px;
+    left: 680px;
     bottom: 27px;
     animation: loading 2s linear infinite;
 }
