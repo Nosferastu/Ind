@@ -17,7 +17,45 @@ let Epic = Number(numEpic.innerHTML);
 let Legen = Number(numLegen.innerHTML);
 let tot = Common + Rare + Super + Epic + Legen;
 
-  
+
+let img2 = document.getElementById('nftmid');
+let img3 = document.getElementById('nftright');
+let img1 = document.getElementById('nftleft');
+let li1 = document.getElementById('li1')
+let li2 = document.getElementById('li2')
+let li3 = document.getElementById('li3')
+let li4 = document.getElementById('li4')
+
+/*
+a = gray
+b = orange
+c = yellow
+d = purple
+
+default
+
+img1 = gray
+img2 = orange
+img3 = yellow
+
+*/
+
+
+
+function toleft(){
+    if(li1.style.color == '--var(orange)'){
+        img1.src='../images/test-01-b.png'
+        img2.src='../images/test-01-c.png'
+        img3.src='../images/test-01-d.png'
+    }
+    
+
+}
+function toright(){
+
+}
+
+
 function clean(){
     numCommon.innerHTML = 0
     numEpic.innerHTML = 0
