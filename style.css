@@ -517,7 +517,7 @@ h2{
     text-shadow: 1px 1px 20px black;
 }
 h2#contract{
-    color: #f6921d(207, 190, 33);
+    color: #f6921d;
     font-family: enchanted;
     font-size: 2.4em;
     margin-top: 30px;
