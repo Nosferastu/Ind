@@ -1,4 +1,3 @@
-
 function mute(){
     let mute = document.getElementById('background_audio').muted;
     
